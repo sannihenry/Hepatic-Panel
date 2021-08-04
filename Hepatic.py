@@ -12,6 +12,11 @@ Created on Fri Jul 23 03:32:31 2021
 @author: Sanni Henry
 """
 
+import streamlit as st
+from PIL import Image
+image = Image.open('liver_function_tests.jpg')
+st.image(image, caption='Liver: is life worth living? it depends on the Liver')
+
 import numpy as np
 import pickle
 import pandas as pd
